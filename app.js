@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
     res.send("Hola a todos los explorers")
 })
 
+app.get('/launchx', (req, res) => {
+    res.send("Bienvenidos a launchX")
+})
+
 app.listen(port, () => {
     console.log("Server Listo!")
 })
